@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface ViewController : GLKViewController
-//test
+@interface ViewController : GLKViewController <AVAudioPlayerDelegate>
+{
+    AVAudioPlayer * audioPlayer;
+}
 
 @end

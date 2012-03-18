@@ -105,6 +105,25 @@ GLfloat gCubeVertexData[216] =
 {
     [super viewDidLoad];
     
+    //@Start Audio MainMusic
+    AudioSessionInitialize (NULL, NULL, NULL, (__bridge void *)self);
+        
+    UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+    AudioSessionSetProperty (kAudioSessionProperty_AudioCategory, sizeof (sessionCategory), &sessionCategory);
+    
+    NSData *soundFileData;
+    soundFileData = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"mainmusic.mp3" ofType:NULL]]];
+        
+    audioPlayer = [[AVAudioPlayer alloc] initWithData:soundFileData error:NULL];
+        
+    if(!([audioPlayer prepareToPlay]))
+        NSLog(@"La méthode prepareToPlay a renvoyé la valeur FALSE");
+        
+    audioPlayer.delegate = self;
+    [audioPlayer setVolume:1.0];
+    [audioPlayer play];
+    //@end Audio MainMusic
+    
     self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
 
     if (!self.context) {

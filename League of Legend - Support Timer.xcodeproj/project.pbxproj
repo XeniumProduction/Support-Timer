@@ -24,6 +24,9 @@
 		CEC22CA8151617C3005E2C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C81151617C3005E2C01 /* Foundation.framework */; };
 		CEC22CB0151617C3005E2C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC22CAE151617C3005E2C01 /* InfoPlist.strings */; };
 		CEC22CB3151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC22CB2151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m */; };
+		CEC22CC515162FCD005E2C01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22CC415162FCD005E2C01 /* AudioToolbox.framework */; };
+		CEC22CC815162FD4005E2C01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22CC715162FD4005E2C01 /* AVFoundation.framework */; };
+		CEC22CCD151630CC005E2C01 /* mainmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEC22CCC151630CC005E2C01 /* mainmusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		CEC22CAF151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEC22CB1151617C3005E2C01 /* League_of_Legend___Support_TimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League_of_Legend___Support_TimerTests.h"; sourceTree = "<group>"; };
 		CEC22CB2151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "League_of_Legend___Support_TimerTests.m"; sourceTree = "<group>"; };
+		CEC22CC415162FCD005E2C01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEC22CC715162FD4005E2C01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEC22CCC151630CC005E2C01 /* mainmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mainmusic.mp3; path = Sources/Audio/mainmusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC22CC815162FD4005E2C01 /* AVFoundation.framework in Frameworks */,
+				CEC22CC515162FCD005E2C01 /* AudioToolbox.framework in Frameworks */,
 				CEC22C80151617C3005E2C01 /* UIKit.framework in Frameworks */,
 				CEC22C82151617C3005E2C01 /* Foundation.framework in Frameworks */,
 				CEC22C84151617C3005E2C01 /* CoreGraphics.framework in Frameworks */,
@@ -91,6 +99,7 @@
 		CEC22C70151617C3005E2C01 = {
 			isa = PBXGroup;
 			children = (
+				CEC22CC91516309B005E2C01 /* Resources */,
 				CEC22C89151617C3005E2C01 /* League of Legend - Support Timer */,
 				CEC22CAB151617C3005E2C01 /* League of Legend - Support TimerTests */,
 				CEC22C7E151617C3005E2C01 /* Frameworks */,
@@ -110,6 +119,8 @@
 		CEC22C7E151617C3005E2C01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEC22CC415162FCD005E2C01 /* AudioToolbox.framework */,
+				CEC22CC715162FD4005E2C01 /* AVFoundation.framework */,
 				CEC22C7F151617C3005E2C01 /* UIKit.framework */,
 				CEC22C81151617C3005E2C01 /* Foundation.framework */,
 				CEC22C83151617C3005E2C01 /* CoreGraphics.framework */,
@@ -163,6 +174,30 @@
 				CEC22CAE151617C3005E2C01 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC22CC91516309B005E2C01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22CCB151630AF005E2C01 /* Images */,
+				CEC22CCA151630A9005E2C01 /* Audio */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEC22CCA151630A9005E2C01 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22CCC151630CC005E2C01 /* mainmusic.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		CEC22CCB151630AF005E2C01 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +274,7 @@
 				CEC22C97151617C3005E2C01 /* MainStoryboard.storyboard in Resources */,
 				CEC22C99151617C3005E2C01 /* Shader.fsh in Resources */,
 				CEC22C9B151617C3005E2C01 /* Shader.vsh in Resources */,
+				CEC22CCD151630CC005E2C01 /* mainmusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +483,7 @@
 				CEC22CB8151617C3005E2C01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC22CB9151617C3005E2C01 /* Build configuration list for PBXNativeTarget "League of Legend - Support TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +492,7 @@
 				CEC22CBB151617C3005E2C01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
