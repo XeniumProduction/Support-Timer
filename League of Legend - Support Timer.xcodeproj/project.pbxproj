@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC22C80151617C3005E2C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C7F151617C3005E2C01 /* UIKit.framework */; };
+		CEC22C82151617C3005E2C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C81151617C3005E2C01 /* Foundation.framework */; };
+		CEC22C84151617C3005E2C01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C83151617C3005E2C01 /* CoreGraphics.framework */; };
+		CEC22C86151617C3005E2C01 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C85151617C3005E2C01 /* GLKit.framework */; };
+		CEC22C88151617C3005E2C01 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C87151617C3005E2C01 /* OpenGLES.framework */; };
+		CEC22C8E151617C3005E2C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC22C8C151617C3005E2C01 /* InfoPlist.strings */; };
+		CEC22C90151617C3005E2C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC22C8F151617C3005E2C01 /* main.m */; };
+		CEC22C94151617C3005E2C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC22C93151617C3005E2C01 /* AppDelegate.m */; };
+		CEC22C97151617C3005E2C01 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC22C95151617C3005E2C01 /* MainStoryboard.storyboard */; };
+		CEC22C99151617C3005E2C01 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CEC22C98151617C3005E2C01 /* Shader.fsh */; };
+		CEC22C9B151617C3005E2C01 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CEC22C9A151617C3005E2C01 /* Shader.vsh */; };
+		CEC22C9E151617C3005E2C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC22C9D151617C3005E2C01 /* ViewController.m */; };
+		CEC22CA6151617C3005E2C01 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22CA5151617C3005E2C01 /* SenTestingKit.framework */; };
+		CEC22CA7151617C3005E2C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C7F151617C3005E2C01 /* UIKit.framework */; };
+		CEC22CA8151617C3005E2C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C81151617C3005E2C01 /* Foundation.framework */; };
+		CEC22CB0151617C3005E2C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC22CAE151617C3005E2C01 /* InfoPlist.strings */; };
+		CEC22CB3151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC22CB2151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC22CA9151617C3005E2C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC22C72151617C3005E2C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC22C7A151617C3005E2C01;
+			remoteInfo = "League of Legend - Support Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC22C7B151617C3005E2C01 /* League of Legend - Support Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League of Legend - Support Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C7F151617C3005E2C01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC22C81151617C3005E2C01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC22C83151617C3005E2C01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC22C85151617C3005E2C01 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CEC22C87151617C3005E2C01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CEC22C8B151617C3005E2C01 /* League of Legend - Support Timer-Info.plist */ = {isa = PBXFileReference; path = "League of Legend - Support Timer-Info.plist"; sourceTree = "<group>"; };
+		CEC22C8D151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC22C8F151617C3005E2C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC22C91151617C3005E2C01 /* League of Legend - Support Timer-Prefix.pch */ = {isa = PBXFileReference; path = "League of Legend - Support Timer-Prefix.pch"; sourceTree = "<group>"; };
+		CEC22C92151617C3005E2C01 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC22C93151617C3005E2C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC22C96151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEC22C98151617C3005E2C01 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CEC22C9A151617C3005E2C01 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CEC22C9C151617C3005E2C01 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CEC22C9D151617C3005E2C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC22CA4151617C3005E2C01 /* League of Legend - Support TimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League of Legend - Support TimerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22CA5151617C3005E2C01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEC22CAD151617C3005E2C01 /* League of Legend - Support TimerTests-Info.plist */ = {isa = PBXFileReference; path = "League of Legend - Support TimerTests-Info.plist"; sourceTree = "<group>"; };
+		CEC22CAF151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC22CB1151617C3005E2C01 /* League_of_Legend___Support_TimerTests.h */ = {isa = PBXFileReference; path = "League_of_Legend___Support_TimerTests.h"; sourceTree = "<group>"; };
+		CEC22CB2151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "League_of_Legend___Support_TimerTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC22C78151617C3005E2C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC22C80151617C3005E2C01 /* UIKit.framework in Frameworks */,
+				CEC22C82151617C3005E2C01 /* Foundation.framework in Frameworks */,
+				CEC22C84151617C3005E2C01 /* CoreGraphics.framework in Frameworks */,
+				CEC22C86151617C3005E2C01 /* GLKit.framework in Frameworks */,
+				CEC22C88151617C3005E2C01 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC22CA0151617C3005E2C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC22CA6151617C3005E2C01 /* SenTestingKit.framework in Frameworks */,
+				CEC22CA7151617C3005E2C01 /* UIKit.framework in Frameworks */,
+				CEC22CA8151617C3005E2C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC22C70151617C3005E2C01 = {
+			isa = PBXGroup;
+			children = (
+				CEC22C89151617C3005E2C01 /* League of Legend - Support Timer */,
+				CEC22CAB151617C3005E2C01 /* League of Legend - Support TimerTests */,
+				CEC22C7E151617C3005E2C01 /* Frameworks */,
+				CEC22C7C151617C3005E2C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC22C7C151617C3005E2C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C7B151617C3005E2C01 /* League of Legend - Support Timer.app */,
+				CEC22CA4151617C3005E2C01 /* League of Legend - Support TimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC22C7E151617C3005E2C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C7F151617C3005E2C01 /* UIKit.framework */,
+				CEC22C81151617C3005E2C01 /* Foundation.framework */,
+				CEC22C83151617C3005E2C01 /* CoreGraphics.framework */,
+				CEC22C85151617C3005E2C01 /* GLKit.framework */,
+				CEC22C87151617C3005E2C01 /* OpenGLES.framework */,
+				CEC22CA5151617C3005E2C01 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC22C89151617C3005E2C01 /* League of Legend - Support Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C92151617C3005E2C01 /* AppDelegate.h */,
+				CEC22C93151617C3005E2C01 /* AppDelegate.m */,
+				CEC22C95151617C3005E2C01 /* MainStoryboard.storyboard */,
+				CEC22C98151617C3005E2C01 /* Shader.fsh */,
+				CEC22C9A151617C3005E2C01 /* Shader.vsh */,
+				CEC22C9C151617C3005E2C01 /* ViewController.h */,
+				CEC22C9D151617C3005E2C01 /* ViewController.m */,
+				CEC22C8A151617C3005E2C01 /* Supporting Files */,
+			);
+			path = "League of Legend - Support Timer";
+			sourceTree = "<group>";
+		};
+		CEC22C8A151617C3005E2C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C8B151617C3005E2C01 /* League of Legend - Support Timer-Info.plist */,
+				CEC22C8C151617C3005E2C01 /* InfoPlist.strings */,
+				CEC22C8F151617C3005E2C01 /* main.m */,
+				CEC22C91151617C3005E2C01 /* League of Legend - Support Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC22CAB151617C3005E2C01 /* League of Legend - Support TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22CB1151617C3005E2C01 /* League_of_Legend___Support_TimerTests.h */,
+				CEC22CB2151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m */,
+				CEC22CAC151617C3005E2C01 /* Supporting Files */,
+			);
+			path = "League of Legend - Support TimerTests";
+			sourceTree = "<group>";
+		};
+		CEC22CAC151617C3005E2C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22CAD151617C3005E2C01 /* League of Legend - Support TimerTests-Info.plist */,
+				CEC22CAE151617C3005E2C01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC22C7A151617C3005E2C01 /* League of Legend - Support Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC22CB6151617C3005E2C01 /* Build configuration list for PBXNativeTarget "League of Legend - Support Timer" */;
+			buildPhases = (
+				CEC22C77151617C3005E2C01 /* Sources */,
+				CEC22C78151617C3005E2C01 /* Frameworks */,
+				CEC22C79151617C3005E2C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League of Legend - Support Timer";
+			productName = "League of Legend - Support Timer";
+			productReference = CEC22C7B151617C3005E2C01 /* League of Legend - Support Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC22CA3151617C3005E2C01 /* League of Legend - Support TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC22CB9151617C3005E2C01 /* Build configuration list for PBXNativeTarget "League of Legend - Support TimerTests" */;
+			buildPhases = (
+				CEC22C9F151617C3005E2C01 /* Sources */,
+				CEC22CA0151617C3005E2C01 /* Frameworks */,
+				CEC22CA1151617C3005E2C01 /* Resources */,
+				CEC22CA2151617C3005E2C01 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC22CAA151617C3005E2C01 /* PBXTargetDependency */,
+			);
+			name = "League of Legend - Support TimerTests";
+			productName = "League of Legend - Support TimerTests";
+			productReference = CEC22CA4151617C3005E2C01 /* League of Legend - Support TimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC22C72151617C3005E2C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEC22C75151617C3005E2C01 /* Build configuration list for PBXProject "League of Legend - Support Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC22C70151617C3005E2C01;
+			productRefGroup = CEC22C7C151617C3005E2C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC22C7A151617C3005E2C01 /* League of Legend - Support Timer */,
+				CEC22CA3151617C3005E2C01 /* League of Legend - Support TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC22C79151617C3005E2C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC22C8E151617C3005E2C01 /* InfoPlist.strings in Resources */,
+				CEC22C97151617C3005E2C01 /* MainStoryboard.storyboard in Resources */,
+				CEC22C99151617C3005E2C01 /* Shader.fsh in Resources */,
+				CEC22C9B151617C3005E2C01 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC22CA1151617C3005E2C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC22CB0151617C3005E2C01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC22CA2151617C3005E2C01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC22C77151617C3005E2C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC22C90151617C3005E2C01 /* main.m in Sources */,
+				CEC22C94151617C3005E2C01 /* AppDelegate.m in Sources */,
+				CEC22C9E151617C3005E2C01 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC22C9F151617C3005E2C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC22CB3151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC22CAA151617C3005E2C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC22C7A151617C3005E2C01 /* League of Legend - Support Timer */;
+			targetProxy = CEC22CA9151617C3005E2C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC22C8C151617C3005E2C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC22C8D151617C3005E2C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC22C95151617C3005E2C01 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC22C96151617C3005E2C01 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC22CAE151617C3005E2C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC22CAF151617C3005E2C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC22CB4151617C3005E2C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC22CB5151617C3005E2C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC22CB7151617C3005E2C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League of Legend - Support Timer/League of Legend - Support Timer-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "League of Legend - Support Timer/League of Legend - Support Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC22CB8151617C3005E2C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League of Legend - Support Timer/League of Legend - Support Timer-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "League of Legend - Support Timer/League of Legend - Support Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEC22CBA151617C3005E2C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/League of Legend - Support Timer.app/League of Legend - Support Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League of Legend - Support Timer/League of Legend - Support Timer-Prefix.pch";
+				INFOPLIST_FILE = "League of Legend - Support TimerTests/League of Legend - Support TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEC22CBB151617C3005E2C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/League of Legend - Support Timer.app/League of Legend - Support Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League of Legend - Support Timer/League of Legend - Support Timer-Prefix.pch";
+				INFOPLIST_FILE = "League of Legend - Support TimerTests/League of Legend - Support TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC22C75151617C3005E2C01 /* Build configuration list for PBXProject "League of Legend - Support Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC22CB4151617C3005E2C01 /* Debug */,
+				CEC22CB5151617C3005E2C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC22CB6151617C3005E2C01 /* Build configuration list for PBXNativeTarget "League of Legend - Support Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC22CB7151617C3005E2C01 /* Debug */,
+				CEC22CB8151617C3005E2C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC22CB9151617C3005E2C01 /* Build configuration list for PBXNativeTarget "League of Legend - Support TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC22CBA151617C3005E2C01 /* Debug */,
+				CEC22CBB151617C3005E2C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC22C72151617C3005E2C01 /* Project object */;
+}
