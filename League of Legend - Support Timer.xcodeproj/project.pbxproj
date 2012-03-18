@@ -43,22 +43,22 @@
 		CEC22C83151617C3005E2C01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CEC22C85151617C3005E2C01 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		CEC22C87151617C3005E2C01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		CEC22C8B151617C3005E2C01 /* League of Legend - Support Timer-Info.plist */ = {isa = PBXFileReference; path = "League of Legend - Support Timer-Info.plist"; sourceTree = "<group>"; };
+		CEC22C8B151617C3005E2C01 /* League of Legend - Support Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "League of Legend - Support Timer-Info.plist"; sourceTree = "<group>"; };
 		CEC22C8D151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEC22C8F151617C3005E2C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEC22C91151617C3005E2C01 /* League of Legend - Support Timer-Prefix.pch */ = {isa = PBXFileReference; path = "League of Legend - Support Timer-Prefix.pch"; sourceTree = "<group>"; };
-		CEC22C92151617C3005E2C01 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC22C91151617C3005E2C01 /* League of Legend - Support Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League of Legend - Support Timer-Prefix.pch"; sourceTree = "<group>"; };
+		CEC22C92151617C3005E2C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEC22C93151617C3005E2C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEC22C96151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CEC22C98151617C3005E2C01 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		CEC22C9A151617C3005E2C01 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		CEC22C9C151617C3005E2C01 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CEC22C9C151617C3005E2C01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEC22C9D151617C3005E2C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEC22CA4151617C3005E2C01 /* League of Legend - Support TimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League of Legend - Support TimerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22CA5151617C3005E2C01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CEC22CAD151617C3005E2C01 /* League of Legend - Support TimerTests-Info.plist */ = {isa = PBXFileReference; path = "League of Legend - Support TimerTests-Info.plist"; sourceTree = "<group>"; };
+		CEC22CAD151617C3005E2C01 /* League of Legend - Support TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "League of Legend - Support TimerTests-Info.plist"; sourceTree = "<group>"; };
 		CEC22CAF151617C3005E2C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CEC22CB1151617C3005E2C01 /* League_of_Legend___Support_TimerTests.h */ = {isa = PBXFileReference; path = "League_of_Legend___Support_TimerTests.h"; sourceTree = "<group>"; };
+		CEC22CB1151617C3005E2C01 /* League_of_Legend___Support_TimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League_of_Legend___Support_TimerTests.h"; sourceTree = "<group>"; };
 		CEC22CB2151617C3005E2C01 /* League_of_Legend___Support_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "League_of_Legend___Support_TimerTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
